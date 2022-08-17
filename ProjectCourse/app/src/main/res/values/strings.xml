@@ -2,4 +2,11 @@
     <string name="app_name">FirstApplication</string>
     <string name="editBoxTitle">Insert Name</string>
     <string name="btnName">Submit</string>
+    <string name="firstValue">First Value:</string>
+    <string name="secondValue">Second Value:</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="result">Result</string>
 </resources>

@@ -2,26 +2,105 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/nameEditTextId"
-        android:gravity="center"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/editBoxTitle"
-        android:textSize="34sp"/>
+        android:orientation="horizontal">
 
-    <Button
-        android:layout_marginTop="40sp"
-        android:layout_width="wrap_content"
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25sp"
+            android:text="@string/firstValue"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/firstValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:autofillHints="Anything" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnName"
-        android:onClick="submitFunction"
-        android:textSize="40sp"/>
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal">
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25sp"
+            android:text="@string/secondValue"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/secondValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus"
+            android:textSize="25sp"
+            android:layout_margin="5sp"
+            android:onClick="onPlus"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textSize="25sp"
+            android:layout_margin="5sp"
+            android:onClick="onMinus"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply"
+            android:textSize="25sp"
+            android:layout_margin="5sp"
+            android:onClick="onMultiply"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divide"
+            android:textSize="25sp"
+            android:layout_margin="5sp"
+            android:onClick="onDivide"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/showResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:hint="@string/result"
+        android:gravity="center"
+        android:layout_marginTop="30sp"/>
 
 </LinearLayout>
