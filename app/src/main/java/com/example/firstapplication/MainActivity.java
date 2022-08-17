@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void clickFuntion(View view) {
-        Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
+
+    public void clickFunction(View view) {
+        Toast.makeText(this, "Button Clicked", Toast.LENGTH_SHORT).show();
     }
 }
