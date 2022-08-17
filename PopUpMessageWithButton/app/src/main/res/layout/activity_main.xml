@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
     android:layout_height="match_parent"
     android:gravity="center"
     tools:context=".MainActivity">
@@ -11,9 +10,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click me"
-        android:onClick="clickFuntion"
-        android:textSize="40dp"
-
+        android:text="Click Me"
+        android:onClick="clickFunction"
+        android:textSize="40dp"/>
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.firstapplication;
+package com.example.popupmessagewithbutton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void clickFuntion(View view) {
-        Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
+    public void clickFunction(View view) {
+        Toast.makeText(context:this, text:"Hello Genius",Toast.LENGTH_SHORT).show();
     }
 }
