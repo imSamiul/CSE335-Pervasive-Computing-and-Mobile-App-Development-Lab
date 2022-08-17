@@ -13,9 +13,9 @@ import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
 //    EditText nameEditText;
-    EditText firstValue;
-    EditText secondValue;
+    EditText firstValue, secondValue;
     TextView showResult;
+    double fValue, sValue, result;
     private static final DecimalFormat df = new DecimalFormat("0.00");
 
     @Override
@@ -40,31 +40,31 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
     public void onPlus(View view) {
-        double fValue = Double.parseDouble(firstValue.getText().toString());
-        double sValue =Double.parseDouble( secondValue.getText().toString());
-        double result =(fValue+sValue);
+        fValue = Double.parseDouble(firstValue.getText().toString());
+        sValue =Double.parseDouble( secondValue.getText().toString());
+        result =(fValue+sValue);
         showResult.setText(df.format(result));
 
     }
 
     public void onMinus(View view) {
-        double fValue = Double.parseDouble(firstValue.getText().toString());
-        double sValue =Double.parseDouble( secondValue.getText().toString());
-        double result =(fValue-sValue);
+        fValue = Double.parseDouble(firstValue.getText().toString());
+        sValue =Double.parseDouble( secondValue.getText().toString());
+        result =(fValue-sValue);
         showResult.setText(df.format(result));
     }
 
     public void onMultiply(View view) {
-        double fValue = Double.parseDouble(firstValue.getText().toString());
-        double sValue =Double.parseDouble( secondValue.getText().toString());
-        double result =(fValue*sValue);
+        fValue = Double.parseDouble(firstValue.getText().toString());
+        sValue =Double.parseDouble( secondValue.getText().toString());
+        result =(fValue*sValue);
         showResult.setText(df.format(result));
     }
 
     public void onDivide(View view) {
-        double fValue = Double.parseDouble(firstValue.getText().toString());
-        double sValue =Double.parseDouble( secondValue.getText().toString());
-        double result =(fValue/sValue);
+        fValue = Double.parseDouble(firstValue.getText().toString());
+        sValue =Double.parseDouble( secondValue.getText().toString());
+        result =(fValue/sValue);
         showResult.setText(df.format(result));
     }
 }
