@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">FirstApplication</string>
-    <string name="btnName">Click me</string>
+    <string name="editBoxTitle">Insert Name</string>
+    <string name="btnName">Submit</string>
 </resources>

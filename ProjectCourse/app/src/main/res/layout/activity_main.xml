@@ -4,13 +4,23 @@
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/nameEditTextId"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editBoxTitle"
+        android:textSize="34sp"/>
+
     <Button
+        android:layout_marginTop="40sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnName"
-        android:onClick="clickFunction"
+        android:onClick="submitFunction"
         android:textSize="40sp"/>
 
 
