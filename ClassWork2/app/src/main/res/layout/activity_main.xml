@@ -34,6 +34,7 @@
         android:orientation="horizontal"
         android:weightSum="4">
         <Button
+            android:id="@+id/addButtonId"
             android:layout_width="1sp"
             android:layout_marginTop="0sp"
             android:layout_height="wrap_content"
@@ -42,25 +43,31 @@
             android:onClick="sum"
             android:textSize="50sp" />
         <Button
+            android:id="@+id/subtractButtonId"
             android:layout_width="1sp"
             android:layout_marginTop="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="-"
+            android:onClick="sum"
             android:textSize="50sp" />
         <Button
+            android:id="@+id/multiplyButtonId"
             android:layout_width="1sp"
             android:layout_marginTop="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="*"
+            android:onClick="sum"
             android:textSize="50sp" />
         <Button
+            android:id="@+id/divideButtonId"
             android:layout_width="1sp"
             android:layout_marginTop="0sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="/"
+            android:onClick="sum"
             android:textSize="50sp" />
     </LinearLayout>
     <TextView

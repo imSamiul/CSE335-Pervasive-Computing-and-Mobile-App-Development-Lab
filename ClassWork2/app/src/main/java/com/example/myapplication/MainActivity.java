@@ -21,10 +21,19 @@ public class MainActivity extends AppCompatActivity {
         showResult= findViewById(R.id.resultId);
     }
 
-    @SuppressLint("SetTextI18n")
+
     public void sum(View view) {
         num1 = Double.parseDouble(firstValue.getText().toString());
         num2= Double.parseDouble(secondValue.getText().toString());
-        result =(num1+num2);
-        showResult.setText("Result is: "+ result);}
+        if (view.getId() == R.id.addButtonId) {
+            result = num1 + num2;
+        } else if (view.getId() == R.id.subtractButtonId) {
+            result = num1 - num2;
+        } else if (view.getId() == R.id.multiplyButtonId) {
+            result = num1 * num2;
+        } else if (view.getId() == R.id.divideButtonId) {
+            result = num1 / num2;
+        }
+        showResult.setText("Result: " + result);
+    }
 }
