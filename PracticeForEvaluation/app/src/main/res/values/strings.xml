@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PracticeForEvaluation</string>
+    <string name="firstValue">First Value:</string>
+    <string name="firstValueHint">Num 1</string>
+    <string name="secondValue">Second Value:</string>
+    <string name="secondValueHint">Num 2</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="result">Result</string>
+</resources>
