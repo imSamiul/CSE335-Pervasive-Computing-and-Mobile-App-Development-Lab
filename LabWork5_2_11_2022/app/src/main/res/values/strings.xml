@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LabWork5_2_11_2022</string>
+    <string name="name">Name</string>
+    <string name="insert_name">Insert name</string>
+    <string name="id">ID</string>
+    <string name="id_hint">Insert your Id</string>
+    <string name="gender">Gender</string>
+    <string name="show_details_button">Show Details</string>
+</resources>
