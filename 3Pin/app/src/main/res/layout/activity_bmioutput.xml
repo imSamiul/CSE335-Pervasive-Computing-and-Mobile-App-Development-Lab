@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/BMIOutputID"
+    android:backgroundTint="#800F0E0E"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/deep_magenda"
+    tools:context=".BMIOutput">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your BMI"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/bmiLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bmi_logo"
+        app:tint="@color/intro_btn_clr_1"/>
+
+    <TextView
+        android:id="@+id/BMIID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="bold"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:textColor="@color/white"
+        android:textSize="60sp"/>
+
+    <TextView
+        android:id="@+id/BMIStatusID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Status :D"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/backBMIBtn"
+        android:layout_width="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/intro_btn_clr_1"
+        android:background="@drawable/rounded_corner_btn"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:onClick="backToBMI"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Back to BMI"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/backHomeBtn"
+        android:layout_width="match_parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="@color/intro_btn_clr_1"
+        android:background="@drawable/rounded_corner_btn"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:onClick="backToHome"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Home"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>

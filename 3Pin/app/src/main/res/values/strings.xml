@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Intro UI Text -->
+    <string name="app_name">Multitracker</string>
+    <string name="Into_title_1">Multi-Tracker</string>
+    <string name="Intro_Button_title_1">Start</string>
+    <string name="chooseTitle">Choose To Track</string>
+
+
+    <!-- The Choose UI Text -->
+    <string name="chooseHomeBtn">Home</string>
+    <string name="chooseBMI">Check Your BMI</string>
+    <string name="chooseCurrency">World Currency to BDT</string>
+    <string name="chooseCalculator">Test Basic Calculation</string>
+    <string name="chooseNextBtn">Go !</string>
+
+
+    <!-- The BMI UI Text -->
+    <string name="bmiTitle">BMI Calculator</string>
+    <string name="bmiGenderTitle">I\'m ....</string>
+    <string name="bmiMale">Male</string>
+    <string name="bmiFemale">Female</string>
+    <string name="bmiAgeTitle">My age ...</string>
+    <string name="bmiHeight">My Height is ...</string>
+    <string name="bmiWeight">My Weight is ...</string>
+    <string name="bmiBtnTitle">My BMI is ...</string>
+
+
+</resources>

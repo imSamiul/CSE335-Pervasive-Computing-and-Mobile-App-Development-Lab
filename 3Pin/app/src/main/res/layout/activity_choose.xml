@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/chooseUI"
+    android:layout_height="match_parent"
+    android:background="@color/deep_magenda"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:backgroundTint="#800F0E0E"
+    android:backgroundTintMode="src_over"
+    tools:context=".Choose">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight=".3"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:gravity="center"
+        android:text="@string/chooseTitle"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+
+    <RadioGroup
+        android:id="@+id/chooseOptionsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <RadioButton
+            android:id="@+id/chooseOptionBMIRBtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:backgroundTint="@color/intro_btn_clr_1"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text="@string/chooseBMI"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/chooseOptionQuizRBtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/text_border"
+            android:backgroundTint="@color/intro_btn_clr_1"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text="@string/chooseCalculator"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight=".2"
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/HomeBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner_btn"
+            android:backgroundTint="@color/intro_btn_clr_1"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:onClick="backToHome"
+            android:text="@string/chooseHomeBtn"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/PlayBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner_btn"
+            android:backgroundTint="@color/intro_btn_clr_1"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:onClick="timeToPlay"
+            android:text="@string/chooseNextBtn"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

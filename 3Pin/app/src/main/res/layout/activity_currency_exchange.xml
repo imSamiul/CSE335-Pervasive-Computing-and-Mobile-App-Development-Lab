@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#800F0E0E"
+    android:backgroundTintMode="src_over"
+    android:id="@+id/exchangePageID"
+    android:orientation="vertical"
+    tools:context=".CurrencyExchange">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/exchangeCountryImgID"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/india" />
+
+    <TextView
+        android:id="@+id/exchangeCountryNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/sassooninfantrgregular"
+        android:text="countryName"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="120dp">
+
+
+        <TextView
+            android:id="@+id/exchangeCountryCurrencyID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text="0 "
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/exchangeCountryCurrencyFormatID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text=" INR"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bangladesh" />
+
+        <EditText
+            android:id="@+id/exchangeBDTAmountID"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:hint="Taka"
+            android:inputType="number"
+            android:letterSpacing=".1"
+            android:textColorHint="#D1D1D1"
+            android:textSize="50sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text="BDT"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/fromExchangeToHomeBtn"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/rounded_corner_btn"
+            android:backgroundTint="@color/intro_btn_clr_1"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text="Home"
+            android:onClick="fromExchangeToHome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/exchangeCalculateBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rounded_corner_btn"
+            android:backgroundTint="@color/intro_btn_clr_1"
+            android:fontFamily="@font/sassooninfantrgregular"
+            android:text="convert"
+            android:textSize="30sp"
+            android:onClick="currencyExchangeCalculate"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
