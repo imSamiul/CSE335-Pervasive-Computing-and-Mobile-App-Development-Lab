@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
     public void busSchedule(View view) {
-        Intent intent = new Intent(this, selectSchedule.class);
+        Intent intent = new Intent(this, BusSchedule.class);
+        ;
         startActivity(intent);
     }
-
-
 }
