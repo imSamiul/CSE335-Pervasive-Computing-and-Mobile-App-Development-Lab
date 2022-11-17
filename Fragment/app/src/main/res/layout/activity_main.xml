@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -12,13 +13,34 @@
         android:layout_height="600dp">
     </FrameLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        >
+        <Button
+            android:id="@+id/fragment1btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Fragment 1"
+            android:layout_margin="15dp"
+            android:backgroundTint="#8C4848"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/fragment2btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Fragment 2"
+            android:layout_margin="15dp"
+            android:backgroundTint="#96A648"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
 
 </LinearLayout>
