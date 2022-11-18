@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class bmiFragment extends Fragment {
@@ -18,10 +19,15 @@ public class bmiFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bmi, container, false);
+        View view = inflater.inflate(R.layout.fragment_bmi, container, false);
+//        TextView height= view.findViewById(R.id.height);
+//        TextView weight= view.findViewById(R.id.weight);
+//        EditText result = view.findViewById(R.id.result);
+        // your set of instructions here
+
+        return view;
+
     }
 
-    public void displayFunction(View view) {
-        height= getView().findViewById(R.id.height);
-    }
+
 }

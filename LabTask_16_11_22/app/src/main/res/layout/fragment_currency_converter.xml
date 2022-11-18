@@ -3,16 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bmiFragment">
+    tools:context=".currencyConverter"
+    android:background="#377DD227">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BMI Calculator"
+        android:text="Currency Converter"
         android:textSize="30sp"
         android:layout_marginTop="20sp"
         android:layout_marginBottom="20sp"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
 </FrameLayout>
