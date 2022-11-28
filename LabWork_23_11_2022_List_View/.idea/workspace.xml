@@ -10,15 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46bab0ba-083e-442c-8ae1-e5a818c088db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LabEvaluation/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabEvaluation/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabEvaluation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../LabEvaluation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabEvaluation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../LabEvaluation/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/java/com/example/labtask_16_11_22/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/java/com/example/labtask_16_11_22/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/java/com/example/labtask_16_11_22/bmiFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/java/com/example/labtask_16_11_22/bmiFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/java/com/example/labtask_16_11_22/currencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/java/com/example/labtask_16_11_22/currencyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/res/layout/fragment_bmi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/res/layout/fragment_bmi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/res/layout/fragment_currency_converter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabTask_16_11_22/app/src/main/res/layout/fragment_currency_converter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Firebase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Firebase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +38,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hw5bsesWQkw6yWK4POojQL4OPh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +50,6 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
