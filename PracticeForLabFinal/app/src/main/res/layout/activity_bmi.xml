@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#FFE15D"
+    tools:context=".bmi">
+
+    <EditText
+        android:id="@+id/heightID"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:hint="Height in meter"
+        android:textColor="#B01E68"
+        android:textColorHint="#B01E68"
+        android:textSize="30sp"
+        android:layout_margin="5sp"/>
+    <EditText
+        android:id="@+id/weightID"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:hint="Weight in kg"
+        android:textColor="#B01E68"
+        android:textColorHint="#B01E68"
+        android:textSize="30sp"
+        android:layout_margin="5sp"/>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:layout_margin="5sp"
+        android:text="Calculate"
+        android:textSize="20sp"
+        android:onClick="calculatebmi"
+        android:textColor="@color/white"
+        android:backgroundTint="#B01E68"/>
+
+    <TextView
+        android:id="@+id/bmiResult"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:gravity="center"
+        android:textColor="#B01E68"
+        android:textSize="30sp"
+        android:hint="Display BMI"
+        android:textColorHint="#B01E68"
+        android:layout_margin="5sp"/>
+
+</LinearLayout>

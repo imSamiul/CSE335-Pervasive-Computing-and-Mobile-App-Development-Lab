@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#B01E68"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        >
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="BMI"
+            android:textSize="23sp"
+            android:onClick="button"
+            android:backgroundTint="#F49D1A"/>
+        <Button
+            android:id="@+id/btnStudentList"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="Student List"
+            android:backgroundTint="#F49D1A"
+
+            android:textSize="23sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnCurrencyConverter"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="Currency Converter"
+            android:backgroundTint="#F49D1A"
+            android:onClick="button"
+            android:textSize="17sp" />
+        <Button
+            android:id="@+id/btnToDoList"
+            android:layout_width="150sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:text="Todo List"
+            android:backgroundTint="#F49D1A"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
