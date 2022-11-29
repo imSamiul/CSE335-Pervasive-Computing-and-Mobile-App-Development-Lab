@@ -47,6 +47,14 @@
         android:text="Add to firebase"
         android:onClick="add"
         android:textSize="20sp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3sp"
+        android:divider="@color/black"
+        android:listSelector="#03CAF36D"
+        android:id="@+id/listView"
+        />
 
 
 </LinearLayout>
