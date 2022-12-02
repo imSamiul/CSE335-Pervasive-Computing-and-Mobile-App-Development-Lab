@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LabFinal</string>
+    <string-array name="students">
+        <item>Rakib</item>
+        <item>Nafis</item>
+        <item>Robin</item>
+        <item>Nishat</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

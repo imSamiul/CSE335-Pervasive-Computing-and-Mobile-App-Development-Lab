@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+Group<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,6 +12,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Question 1: What is the longest sea beach in the world?"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        />
+    <RadioGroup
+        android:id="@+id/q1radioGroupID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        >
+        <RadioButton
+            android:id="@+id/q1radioBtn1ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cox's Bazar"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stockton Beach"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virginia Beach"
+            android:textSize="30sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bali Sea Beach"
+            android:textSize="30sp"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:onClick="toSecondPage"/>
 
 </LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"/>
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your ID"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"/>
+    <EditText
+    android:id="@+id/department"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:hint="Enter your department"
+    android:gravity="center"
+    android:textSize="25sp"
+    android:layout_marginBottom="20sp"/>
+    <EditText
+        android:id="@+id/residence"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your residence"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"/>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to firebase"
+        android:onClick="add"
+        android:textSize="20sp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3sp"
+        android:divider="@color/black"
+        android:listSelector="#03CAF36D"
+        android:id="@+id/listView"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#59B5FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:gravity="center"
+        android:text="Select Calculator"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        />
+
+    <Spinner
+        android:id="@+id/calculateTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        />
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.example.labtask_16_11_22.bmiFragment"
+        android:id="@+id/frag1"/>
+
+
+</LinearLayout>

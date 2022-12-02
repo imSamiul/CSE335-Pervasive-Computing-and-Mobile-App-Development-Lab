@@ -75,7 +75,8 @@
         android:backgroundTint="#665A48"
         android:text="Show Bus"
         android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:onClick="showBus"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="80dp"

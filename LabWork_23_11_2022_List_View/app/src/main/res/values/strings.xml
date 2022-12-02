@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LabWork_23_11_2022_List_View</string>
+    <string-array name="countryArray">
+        <item>Bangladesh</item>
+        <item>Germany</item>
+        <item>Brazil</item>
+        <item>Argentina</item>
+        <item>Saudi Arabia</item>
+
+    </string-array>
+</resources>
