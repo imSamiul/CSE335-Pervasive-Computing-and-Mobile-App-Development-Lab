@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PracticeForLabFinal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="student">
+        <item>Name: Samiul\nID: 201-15-3041\nDepartment: CSE\nResidence:YKSG2</item>
+        <item>Name: Anamul\nID: 201-15-3115\nDepartment: CSE\nResidence: Savar</item>
+    </string-array>
+</resources>

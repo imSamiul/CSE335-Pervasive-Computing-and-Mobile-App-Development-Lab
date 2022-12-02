@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".usdtobdt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#B01E68"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:gravity="center"
+            android:layout_margin="10sp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD"
+                android:layout_weight="1"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#FFE15D"
+                android:layout_margin="5sp"/>
+            <EditText
+                android:id="@+id/usdamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFE15D"
+                android:textColorHint="#FFE15D"
+                android:hint="Give a Value"
+                android:textSize="40sp"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/usdconvert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F49D1A"
+            android:text="Convert"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/displayusd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:hint="Dispplay"
+            android:layout_marginTop="20sp"
+            android:textColorHint="#FFE15D"
+            android:textColor="#FFE15D"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#F49D1A"
+    tools:context=".currencyconverter">
+
+    <RadioGroup
+        android:id="@+id/radioGroupID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        >
+        <RadioButton
+            android:id="@+id/bdtToUsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BDT to USD"
+            android:textSize="30sp"
+            android:textColor="#B01E68"
+            android:textStyle="bold"
+            android:layout_margin="5sp"
+            android:onClick="convertType"/>
+        <RadioButton
+            android:id="@+id/usdToBdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USD to BDT"
+            android:textSize="30sp"
+            android:textColor="#B01E68"
+            android:textStyle="bold"
+            android:layout_margin="5sp"
+            android:onClick="convertType"/>
+
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment" />
+
+</LinearLayout>
