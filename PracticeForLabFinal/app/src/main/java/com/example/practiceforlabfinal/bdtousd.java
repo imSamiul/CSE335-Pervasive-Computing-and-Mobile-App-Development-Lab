@@ -32,8 +32,8 @@ public class bdtousd extends Fragment {
             @Override
             public void onClick(View view) {
                 double bdt = Double.parseDouble(bdtamount.getText().toString());
-        double result = bdt * 100;
-        displaybdt.setText(""+result);
+        double result = bdt / 86.5;
+        displaybdt.setText("USD: "+result);
             }
         });
 

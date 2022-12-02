@@ -48,7 +48,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#B01E68"
             android:text="Convert"
-            android:textSize="30sp"/>
+            android:textSize="30sp"
+            android:textColor="#ffff"/>
         <TextView
             android:id="@+id/displaybdt"
             android:layout_width="wrap_content"
@@ -57,7 +58,8 @@
             android:hint="Dispplay"
             android:layout_marginTop="20sp"
             android:textColorHint="#FFE15D"
-            android:textColor="#FFE15D"/>
+            android:textColor="#FFE15D"
+            android:gravity="center"/>
     </LinearLayout>
 
 </FrameLayout>

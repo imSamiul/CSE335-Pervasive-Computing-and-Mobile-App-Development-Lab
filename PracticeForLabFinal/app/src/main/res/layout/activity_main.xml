@@ -31,6 +31,7 @@
             android:layout_height="100sp"
             android:layout_margin="5sp"
             android:text="Student List"
+            android:onClick="button"
             android:backgroundTint="#F49D1A"
 
             android:textSize="23sp" />

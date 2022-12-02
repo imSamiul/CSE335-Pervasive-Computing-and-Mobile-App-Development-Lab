@@ -13,6 +13,20 @@
         android:theme="@style/Theme.PracticeForLabFinal"
         tools:targetApi="31">
         <activity
+            android:name=".showstudent"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".studentlist"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".currencyconverter"
             android:exported="false">
             <meta-data

@@ -22,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
         else if(view.getId()==R.id.btnCurrencyConverter){
             Intent intent = new Intent(this, currencyconverter.class);
             startActivity(intent);
-    }}
+    }
+        else if(view.getId() == R.id.btnStudentList){
+            Intent intent = new Intent(this, studentlist.class);
+            startActivity(intent);
+        }
+    }
 }

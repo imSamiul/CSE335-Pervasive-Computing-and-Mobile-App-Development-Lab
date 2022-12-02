@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LabFinal2</string>
+    <string-array name="students">
+        <item>Nadim</item>
+        <item>Anamul</item>
+        <item>Samiul</item>
+        <item>Kakon</item>
+    </string-array>
+</resources>

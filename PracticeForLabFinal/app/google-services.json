@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "526568095074",
+    "firebase_url": "https://practiceforlabfinal-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "practiceforlabfinal",
+    "storage_bucket": "practiceforlabfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526568095074:android:76517137aba2195b90803b",
+        "android_client_info": {
+          "package_name": "com.example.practiceforlabfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526568095074-7gd102l8depck3ir3sqhv16pgt7evkl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaRoR7BAhKSI9Sric4yOEN_T2DP3AUj5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526568095074-7gd102l8depck3ir3sqhv16pgt7evkl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

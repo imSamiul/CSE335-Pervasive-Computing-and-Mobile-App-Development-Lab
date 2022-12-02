@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#DC3535"
+    tools:context=".studentlist">
+    
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Name"
+        android:id="@+id/studentname"
+        android:layout_margin="5sp"
+        android:textColor="#FFE15D"
+        android:textColorHint="#B01E68"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student ID"
+        android:id="@+id/studentID"
+        android:layout_margin="5sp"
+        android:textColor="#FFE15D"
+        android:textColorHint="#B01E68"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Residence"
+        android:id="@+id/residence"
+        android:layout_margin="5sp"
+        android:textColor="#FFE15D"
+        android:textColorHint="#B01E68"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5sp"
+        android:weightSum="4">
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="70sp"
+            android:layout_weight="2"
+            android:text="Deaprtment:"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textColor="#FFE15D"/>
+        <Spinner
+            android:id="@+id/department"
+            android:layout_width="0sp"
+            android:layout_height="70sp"
+            android:layout_weight="2"
+            android:gravity="center"
+           />
+    </LinearLayout>
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_margin="5sp"
+        android:text="Add Student"
+        android:textSize="25sp"
+        android:onClick="addStudent"
+        android:backgroundTint="#B01E68"
+        android:textColor="#FFE15D"/>
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_margin="5sp"
+        android:text="Show Student"
+        android:textSize="25sp"
+        android:onClick="showStudent"
+        android:backgroundTint="#B01E68"
+        android:textColor="#FFE15D"/>
+
+
+
+
+
+
+</LinearLayout>

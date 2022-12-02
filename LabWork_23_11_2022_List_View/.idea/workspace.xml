@@ -10,20 +10,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46bab0ba-083e-442c-8ae1-e5a818c088db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Fragment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuizApplicatioin/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuizApplicatioin/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/bdtousd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/bdtousd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/currencyconverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/currencyconverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/fragment_bdtousd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/fragment_bdtousd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/gradlew.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[cd66de04]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Samiul\.android\avd\Pixel_5_API_28.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LabWork_23_11_2022_List_View" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +65,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LabTask_16_11_221.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">

@@ -27,7 +27,7 @@ public class currencyconverter extends AppCompatActivity {
             displayFragment(new bdtousd(),1);
         }
         else if(selectedId == R.id.usdToBdt){
-            
+            displayFragment(new usdtobdt(),2);
         }
     }
 
@@ -37,6 +37,9 @@ public class currencyconverter extends AppCompatActivity {
 
         if (flag ==1){
             ft.add(R.id.fragment,fragment );
+        }
+        else if (flag == 2){
+            ft.replace(R.id.fragment,fragment);
         }
         ft.commit();
     }
