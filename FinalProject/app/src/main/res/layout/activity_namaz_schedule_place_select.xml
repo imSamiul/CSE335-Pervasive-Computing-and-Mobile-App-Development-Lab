@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFFDE1"
+    android:orientation="vertical"
+
+    tools:context=".NamazSchedulePlaceSelect">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="Select Place"
+        android:textSize="60sp"
+        android:background="@drawable/rounded_corner"
+        android:textColor="#FED049"
+        android:textFontWeight="600"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center"
+            android:text="Select a country:"
+            android:textSize="30sp"
+            android:textColor="#3D5656"/>
+        <EditText
+            android:id="@+id/country_name"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:hint="Bangladesh"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20sp"
+            android:textColor="#3D5656"
+            android:background="@drawable/boxedittext"/>
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center"
+            android:text="Select a city:"
+            android:textSize="30sp"
+            android:textColor="#3D5656"/>
+        <EditText
+            android:id="@+id/city_name"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:hint="Dhaka"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20sp"
+            android:textColor="#3D5656"
+            android:background="@drawable/boxedittext"/>
+
+        <Button
+            android:id="@+id/show_time"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:layout_margin="30sp"
+            android:text="Show Time"
+            android:backgroundTint="#68B984"
+            android:textColor="#CFFDE1"
+            android:textSize="20sp"
+            android:onClick="select_place_button"/>
+        <Button
+            android:id="@+id/go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:text="Back"
+            android:backgroundTint="#68B984"
+            android:textColor="#CFFDE1"
+            android:textSize="20sp"
+            android:onClick="select_place_button"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

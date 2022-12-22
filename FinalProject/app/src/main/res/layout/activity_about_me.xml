@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFFDE1"
+    android:orientation="vertical"
+    tools:context=".about_me">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:gravity="center"
+        android:background="#CFFDE1"
+        android:layout_marginVertical="20sp"
+        >
+            <androidx.cardview.widget.CardView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                app:cardCornerRadius="100sp"
+                android:rotation="0"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="200sp"
+                    android:layout_height="200sp"
+                    android:src="@drawable/myself"
+                    android:scaleType="centerCrop"/>
+            </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rammetto_one"
+        android:padding="20sp"
+        android:text="My Profile"
+        android:textColor="#FED049"
+        android:textSize="40sp"
+        android:background="#3D5656"
+        android:layout_marginBottom="1sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CFFDE1"
+        android:orientation="vertical"
+        android:weightSum="5"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginVertical="1sp"
+            android:layout_weight="1"
+            android:background="#3D5656"
+            android:fontFamily="@font/abeezee"
+            android:gravity="center_vertical"
+            android:padding="5sp"
+            android:text="Name: Samiul Karim Prodhan"
+            android:textColor="#CFFDE1"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginVertical="1sp"
+            android:layout_weight="1"
+            android:background="#3D5656"
+            android:gravity="center_vertical"
+            android:padding="5sp"
+            android:text="ID: 201-15-3041"
+            android:textColor="#CFFDE1"
+            android:textSize="25sp"
+            android:fontFamily="@font/abeezee"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginVertical="1sp"
+            android:layout_weight="1"
+            android:background="#3D5656"
+            android:gravity="center_vertical"
+            android:padding="5sp"
+            android:text="Phone: +8801517868247"
+            android:textColor="#CFFDE1"
+            android:textSize="25sp"
+            android:fontFamily="@font/abeezee"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginVertical="1sp"
+            android:layout_weight="1"
+            android:background="#3D5656"
+            android:gravity="center_vertical"
+            android:padding="5sp"
+            android:text="Email: samiul15-3041@diu.edu.bd"
+            android:textColor="#CFFDE1"
+            android:textSize="20sp"
+            android:fontFamily="@font/abeezee"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginVertical="1sp"
+            android:layout_weight="1"
+            android:background="#3D5656"
+            android:gravity="center_vertical"
+            android:padding="5sp"
+            android:text="https://github.com/imSamiul"
+            android:textColor="#CFFDE1"
+            android:textSize="20sp"
+            android:fontFamily="@font/abeezee"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -38,8 +38,6 @@
                 android:hint="Give a Value"
                 android:textSize="40sp"
                 android:gravity="center"/>
-
-
         </LinearLayout>
         <Button
             android:id="@+id/usdconvert"

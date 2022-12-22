@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C8DBBE"
+    android:background="#CFFDE1"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
@@ -16,7 +16,7 @@
         android:layout_marginTop="20sp"
         android:fontFamily="@font/autour_one"
         android:text="Welcome"
-        android:textColor="#665A48"
+        android:textColor="#3D5656"
         android:textFontWeight="700"
         android:textSize="50sp"
         android:gravity="center"/>
@@ -27,7 +27,7 @@
         android:layout_marginHorizontal="30sp"
         android:fontFamily="@font/autour_one"
         android:text="To"
-        android:textColor="#665A48"
+        android:textColor="#3D5656"
         android:textSize="50sp"
         android:textFontWeight="700"
         android:gravity="center"/>
@@ -37,31 +37,33 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20sp"
         android:fontFamily="@font/autour_one"
-        android:text="Exception"
-        android:textColor="#665A48"
+        android:text="Timewind"
+        android:textColor="#3D5656"
         android:textFontWeight="700"
         android:textSize="50sp"
         android:gravity="center"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200sp"
         android:layout_height="80dp"
         android:layout_marginTop="90sp"
-        android:backgroundTint="#665A48"
+        android:backgroundTint="#68B984"
         android:text="Bus Schedule"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
-        android:onClick="busSchedule"/>
+        android:onClick="busSchedule"
+        />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200sp"
         android:layout_height="80dp"
         android:layout_marginTop="30sp"
         android:layout_marginBottom="30sp"
-        android:backgroundTint="#665A48"
+        android:backgroundTint="#68B984"
         android:text="Namaj Time"
         android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:textSize="20sp"
+        android:onClick="namazSchedule"/>
 
 
 </LinearLayout>

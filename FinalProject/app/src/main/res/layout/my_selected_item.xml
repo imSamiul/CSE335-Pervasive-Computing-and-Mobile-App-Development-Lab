@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:hint="Select a route"
     android:textColor="#665A48"
-    android:textSize="24dp"
-    android:textAlignment="viewEnd">
+    android:background="#CFFDE1"
+    android:textSize="24dp">
 
 </TextView>

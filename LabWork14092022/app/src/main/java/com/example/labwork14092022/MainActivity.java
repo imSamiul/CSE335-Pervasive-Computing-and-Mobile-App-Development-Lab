@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         if(userName.equals("Rakib") && password.equals("123")){
             Intent myIntent = new Intent(this, SecondMainActivity.class);
             myIntent.putExtra("userdata",userName);
+            myIntent.putExtra("password", password);
             startActivity(myIntent);
         }
         else{

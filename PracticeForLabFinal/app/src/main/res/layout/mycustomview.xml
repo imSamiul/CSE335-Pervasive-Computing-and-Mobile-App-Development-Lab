@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -12,21 +11,4 @@
         android:textColor="#F49D1A"
         android:id="@+id/mytexviewid"
         android:padding="10sp"/>
-
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="test"
-        android:textSize="25sp"
-        android:textColor="#F49D1A"
-        android:id="@+id/mytexviewid"
-        android:padding="10sp"/>
-
->>>>>>> 338776bc3b970dabee6c9138918363e9b86e05b2
 </LinearLayout>

@@ -17,7 +17,8 @@ public class SecondMainActivity extends AppCompatActivity {
 
         Intent myGetIntent = getIntent();
         String name = myGetIntent.getStringExtra("userdata");
-        outputView.setText("Welcome " +  name);
+        String password = myGetIntent.getStringExtra("password");
+        outputView.setText("Welcome " +  name +" "+ password);
 
     }
 }

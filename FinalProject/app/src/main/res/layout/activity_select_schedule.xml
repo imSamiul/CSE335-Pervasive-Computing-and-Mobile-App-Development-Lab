@@ -1,96 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C8DBBE"
-    android:orientation="vertical"
-    android:gravity="center"
+    android:background="#CFFDE1"
     tools:context=".selectSchedule">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30sp"
-        android:layout_marginTop="20sp"
-        android:fontFamily="@font/autour_one"
-        android:text="Select Schedule"
-        android:textColor="#665A48"
-        android:textFontWeight="700"
-        android:textSize="50sp"
-        android:gravity="center"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="5"
-        android:layout_marginTop="40sp"
-        android:gravity="center"
-        android:layout_marginHorizontal="20sp">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Select Route:"
-            android:textSize="30sp"
-            android:layout_weight="2"
-            android:textColor="#665A48"/>
-        <Spinner
-            android:id="@+id/routeSpinnerId"
-            android:layout_width="0dp"
-            android:layout_weight="3"
-            android:layout_height="wrap_content"
-       />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/autour_one"
+            android:text="Select Schedule"
+            android:textColor="#FED049"
+            android:textFontWeight="700"
+            android:textSize="50sp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:padding="30sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:layout_marginTop="40sp"
+                android:gravity="center"
+                android:layout_marginHorizontal="5sp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/abeezee"
+                    android:text="Select Route:"
+                    android:textColor="#665A48"
+                    android:textSize="30sp" />
+                <Spinner
+                    android:id="@+id/routeSpinnerId"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:gravity="center"
+                android:layout_marginVertical="15sp"
+                >
+                <Button
+                    android:id="@+id/showBusSchedule"
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:backgroundTint="#68B984"
+                    android:text="Show Bus"
+                    android:textColor="#CFFDE1"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:onClick="selectScheduleBtn"
+                    android:layout_margin="10sp"/>
+                <Button
+                    android:id="@+id/editBusSchedule"
+                    android:layout_width="100sp"
+                    android:layout_height="60sp"
+                    android:backgroundTint="#68B984"
+                    android:text="Edit Bus"
+                    android:textColor="#CFFDE1"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:onClick="selectScheduleBtn"
+                    />
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="3"
+
+                >
+                <Button
+                    android:id="@+id/go_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60sp"
+                    android:text="Back"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:textSize="15sp"
+                    android:backgroundTint="#68B984"
+                    android:textColor="#CFFDE1"
+                    android:onClick="selectScheduleBtn"
+                    />
+                <Button
+                    android:id="@+id/about_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60sp"
+                    android:text="About Me"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:textSize="15sp"
+                    android:backgroundTint="#3D5656"
+                    android:textColor="#CFFDE1"
+                    android:onClick="selectScheduleBtn"
+                    />
+                <Button
+                    android:id="@+id/exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60sp"
+                    android:text="Exit"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:textSize="15sp"
+                    android:backgroundTint="#68B984"
+                    android:textColor="#CFFDE1"
+                    android:onClick="selectScheduleBtn"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
     </LinearLayout>
-
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40sp">
-            <RadioButton
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="To DSC"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="#665A48"
-                android:buttonTint="@color/black"
-                />
-            <RadioButton
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="From DSC"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="#665A48"
-                android:buttonTint="@color/black"
-                />
-
-        </RadioGroup>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginTop="30sp"
-        android:layout_marginBottom="15sp"
-        android:backgroundTint="#665A48"
-        android:text="Show Bus"
-        android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:onClick="showBus"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginBottom="30sp"
-        android:backgroundTint="#665A48"
-        android:text="Back"
-        android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:onClick="goBack"
-        />
-
-
-
-
-
-
-</LinearLayout>
+</ScrollView>

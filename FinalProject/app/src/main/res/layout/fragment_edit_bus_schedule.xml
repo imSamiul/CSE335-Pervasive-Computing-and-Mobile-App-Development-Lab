@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editBusSchedule">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#CFFDE1"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:background="#3D5656">
+
+            <TextView
+                android:layout_weight="1"
+                android:height="50sp"
+                android:fontFamily="@font/acme_regular"
+                android:gravity="center"
+                android:text="Edit Schedule"
+                android:textColor="#CFFDE1"
+                android:textSize="40sp"
+
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Bus ID"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:background="@drawable/tablerow_textview_background"
+                />
+
+            <TextView
+                android:id="@+id/editBusId"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tablerow_textview_background"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:text="BUS_SCH_001"
+                android:textSize="20sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeStepGranularity="2sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Route"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:background="@drawable/tablerow_textview_background"
+                />
+
+            <TextView
+                android:id="@+id/editBusRoute"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:autoSizeMaxTextSize="25sp"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:text="Dhanmondi - DSC"
+                android:background="@drawable/tablerow_textview_background"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:textSize="25sp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Time from DSC"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:background="@drawable/tablerow_textview_background"
+                />
+
+            <EditText
+                android:id="@+id/editbusfromdsc"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tablerow_textview_background"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeStepGranularity="2sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Time to DSC"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:background="@drawable/tablerow_textview_background"
+                />
+
+            <EditText
+                android:id="@+id/editbustodsc"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tablerow_textview_background"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeStepGranularity="2sp"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="300sp"
+            android:layout_height="100sp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Bus Number"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:background="@drawable/tablerow_textview_background"
+                />
+
+            <EditText
+                android:id="@+id/editbusnumber"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/tablerow_textview_background"
+                android:gravity="center"
+                android:textColor="#3D5656"
+                android:textSize="25sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="12sp"
+                android:autoSizeMaxTextSize="25sp"
+                android:autoSizeStepGranularity="2sp"/>
+        </TableRow>
+        <Button
+            android:id="@+id/editBusSchedulebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:backgroundTint="#FED049"
+            android:textColor="#3D5656"
+            android:textSize="20sp"
+            android:padding="15sp"
+            android:layout_margin="15sp"
+            android:fontFamily="@font/abeezee"
+            android:textFontWeight="600"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

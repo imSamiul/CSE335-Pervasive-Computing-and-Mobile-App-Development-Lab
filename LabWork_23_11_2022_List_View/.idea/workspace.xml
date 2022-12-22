@@ -10,23 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46bab0ba-083e-442c-8ae1-e5a818c088db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/java/com/example/finalproject/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/java/com/example/finalproject/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/java/com/example/finalproject/selectSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/java/com/example/finalproject/selectSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/font/amarante.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/font/amarante.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/font/autour_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/font/autour_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/font/bangers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/font/bangers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/activity_select_schedule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/activity_select_schedule.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/my_dropdown_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/my_dropdown_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/my_selected_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/layout/my_selected_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/values/font_certs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinalProject/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../FinalProject/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabWork14092022/app/src/main/java/com/example/labwork14092022/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabWork14092022/app/src/main/java/com/example/labwork14092022/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LabWork14092022/app/src/main/java/com/example/labwork14092022/SecondMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabWork14092022/app/src/main/java/com/example/labwork14092022/SecondMainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/bdtousd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/bdtousd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/currencyconverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/currencyconverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/fragment_bdtousd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/fragment_bdtousd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/dataholder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/java/com/example/practiceforlabfinal/dataholder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/mycustomview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticeForLabFinal/app/src/main/res/layout/mycustomview.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +96,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PracticeForLabFinal" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
